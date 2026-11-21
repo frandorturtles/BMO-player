@@ -1,6 +1,6 @@
 # BMO PLAYER - portable MP3 player  (@frandorturtles)
 
-A pocket MP3 player in a BMO-style 3D-printed case. ESP32 + 2.0" ST7789 screen + PCM5102A DAC (3.5 mm jack) + microSD + LiPo with USB-C charging. **No custom PCB**: commercial modules joined with wires.
+Is a pocket MP3 player in a BMO-style 3D-printed case. ESP32 + 2.0" ST7789 screen + PCM5102A DAC (3.5 mm jack) + microSD + LiPo with USB-C charging. **No custom PCB**: commercial modules joined with wires.
 
 Front layout follows the reference photo: screen on top, yellow cross (D-pad), blue triangle, green and red buttons, key-ring eyelet, speaker dimples. `@frandorturtles` is engraved on the back.
 
