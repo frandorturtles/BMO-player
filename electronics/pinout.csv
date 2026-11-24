@@ -1,0 +1,20 @@
+signal,esp32_gpio,connects_to,module_pin,voltage,notes
+SD_SCK,18,microSD module,SCK,3.3V,VSPI
+SD_MISO,19,microSD module,MISO,3.3V,VSPI
+SD_MOSI,23,microSD module,MOSI,3.3V,VSPI
+SD_CS,5,microSD module,CS,3.3V,
+TFT_SCK,14,ST7789 2.0in,SCL/SCK,3.3V,HSPI
+TFT_MOSI,13,ST7789 2.0in,SDA/MOSI,3.3V,HSPI
+TFT_CS,32,ST7789 2.0in,CS,3.3V,
+TFT_DC,27,ST7789 2.0in,DC,3.3V,
+I2S_BCK,22,PCM5102A,BCK,3.3V,
+I2S_WS,21,PCM5102A,LCK/LRCK,3.3V,
+I2S_DOUT,17,PCM5102A,DIN,3.3V,
+BTN_UP,4,tact switch (D-pad up) to GND,,3.3V,internal pull-up
+BTN_DOWN,16,tact switch (D-pad down) to GND,,3.3V,internal pull-up
+BTN_LEFT,25,tact switch (D-pad left) to GND,,3.3V,internal pull-up
+BTN_RIGHT,26,tact switch (D-pad right) to GND,,3.3V,internal pull-up
+BTN_OK,33,tact switch (green) to GND,,3.3V,internal pull-up
+BTN_BACK,15,tact switch (red) to GND,,3.3V,strapping pin - do not hold at reset
+BTN_MODE,2,tact switch (blue triangle) to GND,,3.3V,strapping pin - do not hold at reset
+VBAT_SENSE,35,divider 100k/100k from BAT+,,2.1V max,input only ADC1

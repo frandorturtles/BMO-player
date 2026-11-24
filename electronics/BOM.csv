@@ -1,0 +1,16 @@
+item,qty,exact_model,key_specs,buy_link_search,alternatives,est_price_usd
+Microcontroller,1,ESP32 DevKit V1 (ESP32-WROOM-32; NOT WROVER),3.3V logic; 5V on VIN; ~51x28 mm (varies),https://www.aliexpress.com/wholesale?SearchText=ESP32+DevKit+V1+WROOM-32,ESP32 DevKitC V4; AZ-Delivery ESP32 DevKitC,6
+Display,1,2.0in IPS ST7789 240x320 SPI (8-pin: GND VCC SCL SDA RES DC CS BL),3.3V; active area ~40.8x30.6 mm,https://www.adafruit.com/product/4311,Generic 2.0in ST7789 module (verify pinout),8
+Audio DAC + jack,1,PCM5102A (GY-PCM5102) with 3.5mm jack,I2S in; 2.1 Vrms line out; 3.3V,https://www.aliexpress.com/wholesale?SearchText=GY-PCM5102,Adafruit UDA1334A I2S DAC (3.5mm jack) - needs small firmware pin change only,4
+microSD module,1,microSD SPI breakout 3.3V logic,SPI; card slot at board edge,https://www.adafruit.com/product/4682,Any 3.3V microSD SPI breakout,3
+LiPo battery,1,603450 3.7V 1000 mAh with protection (PCM) and JST/leads,~6 x 34 x 50 mm,https://www.aliexpress.com/wholesale?SearchText=603450+lipo+1000mAh,583450 / 703450 (re-check cradle),6
+Charger,1,TP4056 USB-C module with DW01A+FS8205A protection,4.2V 1A charge; B+/B-/OUT+/OUT-,https://www.aliexpress.com/wholesale?SearchText=TP4056+type-c+protection,Adafruit PowerBoost 500C (replaces TP4056+boost),1
+5V boost,1,Pololu U1V10F5 5V step-up,in 0.5-5V; out 5V up to ~1A (verify at 3.3V in),https://www.pololu.com/search/compare?query=U1V10F5,MT3608 set to 5.0V (check with multimeter first),5
+Slide switch,1,SS12D00G3 SPDT mini slide,8.5x3.6x3.5 mm,https://www.aliexpress.com/wholesale?SearchText=SS12D00G3,Any mini slide switch same footprint,0.3
+Tact switches,7,6x6 mm THT 4-pin height 4.3 mm,pins 4.5 x 6.5 mm,https://www.aliexpress.com/wholesale?SearchText=6x6x4.3+tact+switch,6x6x5 (adjust TRAY_Z0),1
+Resistors,2,100 kOhm 1/8 W,battery divider,,any 47k-220k pair of equal value,0.1
+M2 screws,4,M2 x 18 mm pan head,close the case,,M2 x 16/20,1
+M2 screws,4,M2 x 6 mm pan head,fix switch tray,,,1
+Foam / Kapton tape,1,1 mm foam pad + Kapton,ESP32 hold-down + insulation,,,2
+Silicone wire,1,28 AWG assorted,,,,3
+Filament,1,PLA/PETG (mint green + yellow/blue/green/red for keys),~45 g shells,,,2
