@@ -1,0 +1,1 @@
+{ "name": "bmo_core", "version": "1.0.0", "description": "Hardware-independent logic (ID3 parser, text folding, playlist, battery curve)", "frameworks": "*", "platforms": "*" }
