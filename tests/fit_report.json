@@ -1,0 +1,190 @@
+{
+  "parts": [
+    {
+      "file": "bmo_front_shell.stl",
+      "triangles": 346532,
+      "size_mb": 17.3,
+      "bbox_mm": [
+        76.0,
+        117.5,
+        13.0
+      ],
+      "volume_mm3": 24028.5
+    },
+    {
+      "file": "bmo_back_shell.stl",
+      "triangles": 391716,
+      "size_mb": 19.6,
+      "bbox_mm": [
+        76.0,
+        110.0,
+        14.8
+      ],
+      "volume_mm3": 27445.3
+    },
+    {
+      "file": "bmo_switch_tray.stl",
+      "triangles": 312744,
+      "size_mb": 15.6,
+      "bbox_mm": [
+        71.2,
+        54.2,
+        5.3
+      ],
+      "volume_mm3": 6558.9
+    },
+    {
+      "file": "bmo_module_frames.stl",
+      "triangles": 78624,
+      "size_mb": 3.9,
+      "bbox_mm": [
+        61.1,
+        54.4,
+        3.0
+      ],
+      "volume_mm3": 862.4
+    },
+    {
+      "file": "bmo_key_up.stl",
+      "triangles": 11816,
+      "size_mb": 0.6,
+      "bbox_mm": [
+        10.4,
+        10.4,
+        4.0
+      ],
+      "volume_mm3": 301.8
+    },
+    {
+      "file": "bmo_key_down.stl",
+      "triangles": 11832,
+      "size_mb": 0.6,
+      "bbox_mm": [
+        10.4,
+        10.4,
+        4.0
+      ],
+      "volume_mm3": 301.7
+    },
+    {
+      "file": "bmo_key_left.stl",
+      "triangles": 11832,
+      "size_mb": 0.6,
+      "bbox_mm": [
+        10.4,
+        10.4,
+        4.0
+      ],
+      "volume_mm3": 301.7
+    },
+    {
+      "file": "bmo_key_right.stl",
+      "triangles": 11832,
+      "size_mb": 0.6,
+      "bbox_mm": [
+        10.4,
+        10.4,
+        4.0
+      ],
+      "volume_mm3": 301.7
+    },
+    {
+      "file": "bmo_key_triangle.stl",
+      "triangles": 19656,
+      "size_mb": 1.0,
+      "bbox_mm": [
+        16.0,
+        16.0,
+        4.0
+      ],
+      "volume_mm3": 407.4
+    },
+    {
+      "file": "bmo_key_green.stl",
+      "triangles": 10216,
+      "size_mb": 0.5,
+      "bbox_mm": [
+        10.4,
+        10.4,
+        4.0
+      ],
+      "volume_mm3": 241.2
+    },
+    {
+      "file": "bmo_key_red.stl",
+      "triangles": 13816,
+      "size_mb": 0.7,
+      "bbox_mm": [
+        12.5,
+        12.5,
+        4.0
+      ],
+      "volume_mm3": 365.5
+    }
+  ],
+  "fit": {
+    "module_vs_solid_mm3": {},
+    "module_vs_module_mm3": {},
+    "part_vs_part_mm3": {},
+    "inside_envelope": {
+      "display_2.0_ST7789": true,
+      "esp32_devkit": true,
+      "tp4056_usbc": true,
+      "boost_5v": true,
+      "dac_pcm5102_jack": true,
+      "microsd_module": true,
+      "slide_switch": true,
+      "lipo_603450": true
+    }
+  },
+  "params": {
+    "W": 76.0,
+    "H": 110.0,
+    "T": 26.0,
+    "wall": 2.0,
+    "voxel_shell_mm": 0.4,
+    "voxel_small_mm": 0.25
+  },
+  "modules_nominal_mm": {
+    "display_2.0_ST7789": [
+      52.0,
+      36.0,
+      4.0
+    ],
+    "esp32_devkit": [
+      51.5,
+      28.3,
+      4.8
+    ],
+    "tp4056_usbc": [
+      17.0,
+      26.0,
+      4.6
+    ],
+    "boost_5v": [
+      12.7,
+      17.8,
+      3.6
+    ],
+    "dac_pcm5102_jack": [
+      17.5,
+      31.5,
+      6.6
+    ],
+    "microsd_module": [
+      25.0,
+      19.0,
+      4.0
+    ],
+    "slide_switch": [
+      3.6,
+      8.5,
+      3.5
+    ],
+    "lipo_603450": [
+      34.0,
+      50.0,
+      6.0
+    ]
+  }
+}
