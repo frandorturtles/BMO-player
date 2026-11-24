@@ -25,8 +25,4 @@ bmo-player/
 | Blue triangle | shuffle (hold: repeat mode) | - |
 | Red (BACK) | open menu | back |
 
-## Status - read before building
-Verified here: STL geometry (watertight, no collisions between nominal module boxes and the case), pin map (rules + consistency), firmware core logic (ID3, playlist, battery) with host unit tests.
-**NOT verified here (no hardware, no PlatformIO, no OpenSCAD in the build environment):** firmware compile on ESP32 and on-device behaviour, bmo_player.scad compile, real module dimensions, headphone loudness from the PCM5102A, charge-while-playing behaviour. See `docs/validation.md` for the exact list.
-
 License: MIT.
